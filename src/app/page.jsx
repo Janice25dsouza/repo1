@@ -1,3 +1,4 @@
+//there is no utility class like p-25 so typing this would simply remove the padding so p-24 cannot be replace by p-25
 import Image from "next/image";
 
 export default function Home() {
