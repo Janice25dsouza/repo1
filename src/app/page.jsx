@@ -1,9 +1,8 @@
 import React from 'react';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
-import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 
 import Header from './components/Header';
-
+import Button from './components/Button';
 
 
 const Page = () => {
@@ -35,6 +34,9 @@ const Page = () => {
       {/*<button className="bg-black rounded-3xl border-2 p-1 hover:bg-yellow-500 hover:border-yellow-500" onclick="">
               <LightbulbIcon style={{ fontSize: 45, color: 'white' }} />
       </button>*/}
+
+      
+      <div className="flex justify-center p-4"><Button /></div>
 
     </div>
   );
