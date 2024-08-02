@@ -1,7 +1,6 @@
 import React from 'react';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 
-import Header from './components/Header';
 import Button from './components/Button';
 
 
@@ -9,7 +8,7 @@ const Page = () => {
   return (
     <div className="bg-black w-screen h-screen p-0 pb-20">
 
-      <Header />
+      
       <h1 className="text-9xl font-black line-through text-pink-200 tracking-wider flex justify-center p-10 rounded">
         <div className="text-blue-500 hover:text-green-200">J</div>
         <div className="text-green-200 hover:text-blue-500">A</div>
