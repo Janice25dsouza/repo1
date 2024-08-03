@@ -1,12 +1,11 @@
 import React from 'react';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
-
 import Button from './components/Button';
 
 
 const Page = () => {
   return (
-    <div className="bg-black w-screen h-screen p-0 pb-20">
+    <div className="bg-black w-screen h-screen p-0 pb-20 min-h-screen">
 
       
       <h1 className="text-9xl font-black line-through text-pink-200 tracking-wider flex justify-center p-10 rounded">
@@ -30,11 +29,6 @@ const Page = () => {
           </p>
       </div>
 
-      {/*<button className="bg-black rounded-3xl border-2 p-1 hover:bg-yellow-500 hover:border-yellow-500" onclick="">
-              <LightbulbIcon style={{ fontSize: 45, color: 'white' }} />
-      </button>*/}
-
-      
       <div className="flex justify-center p-4"><Button /></div>
 
     </div>

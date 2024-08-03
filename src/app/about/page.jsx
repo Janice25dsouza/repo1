@@ -2,7 +2,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>page123</div>
+    <>
+      <div className="min-h-screen">about us
+      </div>
+    </>
   );
 };
 
