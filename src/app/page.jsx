@@ -9,8 +9,8 @@ const Page = () => {
 
     
     <div className="bg-black w-screen h-screen p-0 pb-20 min-h-screen">
-
-      
+       home
+      {/*
       <h1 className="text-9xl font-black line-through text-pink-200 tracking-wider flex justify-center p-10 rounded">
         <div className="text-blue-500 hover:text-green-200">J</div>
         <div className="text-green-200 hover:text-blue-500">A</div>
@@ -42,7 +42,7 @@ const Page = () => {
         />
       </div>
 
-      <div className="flex justify-center p-4"><Button /></div>
+      <div className="flex justify-center p-4"><Button /></div> */}
 
       
 

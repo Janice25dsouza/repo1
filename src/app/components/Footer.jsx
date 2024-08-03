@@ -20,8 +20,8 @@ const Footer = () => {
                     </Link>             
                 </div>
                 <div className="pl-20 pt-2 pb-2 text-sm font-bold w-4 m-2 ml-10">
-                    <Link href="/chat" passHref>
-                        <button>Chat</button>
+                    <Link href="/cart" passHref>
+                        <button>Cart</button>
                     </Link>
                     <Link href="/settings" passHref>
                         <button>Settings</button>
