@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <>
-    <div className="bg-green-200 mt-96 p-5 text-black">
+    <footer>
+    <div className="bg-green-200 mt-96 p-4 text-black ">
         <div className=" flex ">
             <div className="pl-20 pt-2 pb-2 text-sm font-bold w-4 m-2">
                 <Link href="/" passHref>
@@ -32,7 +32,7 @@ const Footer = () => {
             Copyright  Corporation 2024 All rights reserved
         </div>  
     </div>
-    </>
+    </footer>
     
   )
 }
