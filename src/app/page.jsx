@@ -42,7 +42,7 @@ const Page = () => {
         />
       </div>
 
-      <div className="flex justify-center p-1"><Button /></div>
+      <div className="flex justify-center p-4"><Button /></div>
 
       
 
