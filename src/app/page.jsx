@@ -11,12 +11,14 @@ const Page = () => {
     
     <div className="bg-black w-screen h-screen p-0 pb-20 min-h-screen">
 
+      <div className="m-20 ml-10 mr-0 mb-0 text-5xl font-bold italic">WELCOME TO PAWZ!!!!</div>  
+      <div className="m-56 mb-2 mr-0 mt-0 italic font-thin text-yellow-200 text-lg ">where everything is made pawsible for your pet</div>
        
-        <Boxx />
+      <Boxx />
        
 
-       <div className="m-20 mb-0 mr-0 text-5xl font-bold italic">WELCOME TO PAWZ!!!!</div>
-       <div className="m-56 mb-2 mr-0 mt-4 italic font-thin text-yellow-200 text-lg ">where everything is made pawsible for your pet</div>
+       
+       
        <div className="m-32 mt-4 pt-0 italic text-xl w-1/3 text-pink-300 font-thin">At Pawz, we&apos;re passionate about providing high-quality products that make pets happy. Our mission is to offer a curated selection of toys, treats, and essentials that cater to every pet&apos;s needs. With a love for animals at the heart of our business, we strive to enhance the lives of pets and their families through exceptional service and care.</div>
 
 

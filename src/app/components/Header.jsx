@@ -19,7 +19,10 @@ const Header = () => {
               </Link>
               <Link href="/cart" passHref>
                 <button className="p-2 font-bold text-black  border-2 m-2 border-green-200 rounded-md hover:border-black">Cart</button>
-              </Link>  
+              </Link> 
+              <Link href="/shopping" passHref>
+                <button className="p-2 font-bold text-black  border-2 m-2 border-green-200 rounded-md hover:border-black">Shop Now</button>
+              </Link> 
               <Link href="/settings" passHref>
                 <button className="p-2 font-bold text-black  border-2 m-2 border-green-200 rounded-md hover:border-black">Settings</button>
               </Link>  
