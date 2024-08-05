@@ -7,6 +7,7 @@ function page() {
         <div className="rounded-md bg-black p-4 mt-20 w-96 border-2 border-green-200">
           <div className="flex justify-center font-bold text-4xl">LOGIN</div>
 
+          
         
 
 

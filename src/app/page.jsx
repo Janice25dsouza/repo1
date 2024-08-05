@@ -3,13 +3,32 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import Button from './components/Button';
 import Image from "next/image";
 import starry_nights from "/public/starry.jpg";
+import Boxx from './components/Boxx';
 
 const Page = () => {
   return (
 
     
     <div className="bg-black w-screen h-screen p-0 pb-20 min-h-screen">
-       home
+
+       
+        <Boxx />
+       
+
+       <div className="m-20 mb-0 mr-0 text-5xl font-bold italic">WELCOME TO PAWZ!!!!</div>
+       <div className="m-56 mb-2 mr-0 mt-4 italic font-thin text-yellow-200 text-lg ">where everything is made pawsible for your pet</div>
+       <div className="m-32 mt-4 pt-0 italic text-xl w-1/3 text-pink-300 font-thin">At Pawz, we&apos;re passionate about providing high-quality products that make pets happy. Our mission is to offer a curated selection of toys, treats, and essentials that cater to every pet&apos;s needs. With a love for animals at the heart of our business, we strive to enhance the lives of pets and their families through exceptional service and care.</div>
+
+
+      
+
+
+
+
+
+
+
+
       {/*
       <h1 className="text-9xl font-black line-through text-pink-200 tracking-wider flex justify-center p-10 rounded">
         <div className="text-blue-500 hover:text-green-200">J</div>
